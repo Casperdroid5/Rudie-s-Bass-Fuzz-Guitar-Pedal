@@ -515,6 +515,7 @@
     )
   )
 
+
   (junction (at 107.315 64.77) (diameter 0) (color 0 0 0 0)
     (uuid 1e1f0eb7-5446-4134-ae0a-be2f39f35255)
   )
@@ -727,7 +728,7 @@
   (symbol (lib_id "power:GND") (at 100.965 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 62bdca84-5f08-4fac-a6cd-57f74c0bfc94)
-    (property "Reference" "#PWR?" (id 0) (at 100.965 53.975 0)
+    (property "Reference" "#PWR03" (id 0) (at 100.965 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 100.965 52.07 0))
@@ -793,7 +794,7 @@
   (symbol (lib_id "Device:R") (at 95.885 47.625 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 81632b8d-e4b9-482a-84dd-cfc8f01f89ad)
-    (property "Reference" "R?" (id 0) (at 95.885 41.91 90))
+    (property "Reference" "R2" (id 0) (at 95.885 41.91 90))
     (property "Value" "470" (id 1) (at 95.885 44.45 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 95.885 49.403 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -840,7 +841,7 @@
   (symbol (lib_id "Device:LED") (at 88.265 47.625 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9bac20ab-0eff-4b4e-96fd-8a8eb787d966)
-    (property "Reference" "D?" (id 0) (at 89.8525 40.64 0))
+    (property "Reference" "D2" (id 0) (at 89.8525 40.64 0))
     (property "Value" "LED" (id 1) (at 89.8525 43.18 0))
     (property "Footprint" "" (id 2) (at 88.265 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -952,7 +953,7 @@
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
     (path "/62bdca84-5f08-4fac-a6cd-57f74c0bfc94"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
     (path "/8654b05d-362b-4cb4-926f-93b0a01dc527"
       (reference "C1") (unit 1) (value "47uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
@@ -964,7 +965,7 @@
       (reference "D1") (unit 1) (value "D") (footprint "Diode_THT:D_A-405_P12.70mm_Horizontal")
     )
     (path "/9bac20ab-0eff-4b4e-96fd-8a8eb787d966"
-      (reference "D?") (unit 1) (value "LED") (footprint "")
+      (reference "D2") (unit 1) (value "LED") (footprint "")
     )
     (path "/0309e1ab-0658-4dbf-89ab-e051ee8674ac"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
@@ -991,7 +992,7 @@
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/81632b8d-e4b9-482a-84dd-cfc8f01f89ad"
-      (reference "R?") (unit 1) (value "470") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R2") (unit 1) (value "470") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/57d2b19e-4c2f-4903-ba5c-1c3fdf03f50d"
       (reference "RV1") (unit 1) (value "100K") (footprint "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal")
