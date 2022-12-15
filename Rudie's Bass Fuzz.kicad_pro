@@ -56,8 +56,15 @@
         }
       ],
       "drc_exclusions": [
+        "copper_edge_clearance|180779200|69362000|0bd9e7db-3755-4223-bc14-e65f2daba3ec|323e89c4-ee2e-4f44-b1d3-58fb3c7df636",
+        "courtyards_overlap|182874179|57594001|f5b0e566-748f-4cc0-bdea-d66f8eb5595c|cde77853-cd6e-4f8b-ba62-49b2656f301f",
+        "courtyards_overlap|183128999|60938001|f5b0e566-748f-4cc0-bdea-d66f8eb5595c|613d858b-4438-4cad-aaff-0a631284c438",
         "courtyards_overlap|183229779|57594001|f5b0e566-748f-4cc0-bdea-d66f8eb5595c|cde77853-cd6e-4f8b-ba62-49b2656f301f",
         "courtyards_overlap|183484599|60938001|f5b0e566-748f-4cc0-bdea-d66f8eb5595c|613d858b-4438-4cad-aaff-0a631284c438",
+        "silk_over_copper|144937797|83488438|2db8ef79-4a47-45e3-b7b0-3ee60993c948|626059c2-d4a2-4b7b-9604-700c4d0d79fc",
+        "silk_over_copper|144937902|51767000|8bd0bd38-5a7f-4bed-8974-a7d54997e23f|078ef709-068a-4ccc-8b08-121f0e27f194",
+        "silk_over_copper|144949097|58421800|8bd0bd38-5a7f-4bed-8974-a7d54997e23f|52794ba3-9791-484d-bd15-6ebd8352026d",
+        "silk_over_copper|144949200|76833638|2db8ef79-4a47-45e3-b7b0-3ee60993c948|e4d103e6-db20-4002-a319-ca5dc4f808be",
         "silk_over_copper|158600000|48416000|4c45dd8a-fdcf-4a02-aac7-9f5506dcd871|078ef709-068a-4ccc-8b08-121f0e27f194",
         "silk_over_copper|158600000|61725600|4c45dd8a-fdcf-4a02-aac7-9f5506dcd871|52794ba3-9791-484d-bd15-6ebd8352026d",
         "silk_over_copper|158600000|73530276|0212df1d-230d-4a18-a380-ea8861c04d61|e4d103e6-db20-4002-a319-ca5dc4f808be",
@@ -66,7 +73,9 @@
         "silk_over_copper|158600000|86839876|4c45dd8a-fdcf-4a02-aac7-9f5506dcd871|626059c2-d4a2-4b7b-9604-700c4d0d79fc",
         "silk_over_copper|172192325|90437174|1dd148b9-bfc2-4503-80d7-03a115925874|cf466389-d844-4d34-b730-6f5bc032e52d",
         "silk_over_copper|172674161|46031660|7112c178-fa81-408e-8fa5-a3f616113d55|1fcb871d-a701-4630-b3bf-00a9e4727c4c",
-        "silk_overlap|180569190|49459166|90c3331b-c532-4aa8-863a-37cb7f34c527|bf996ad0-37ca-4a1a-8a37-361d1a82f9ba"
+        "silk_over_copper|180243380|78361904|31375a1e-6587-4628-8fed-09c404fb5e42|a0e09ad3-8802-4c0d-8d37-0f12603e6b28",
+        "silk_overlap|180569190|49459166|90c3331b-c532-4aa8-863a-37cb7f34c527|bf996ad0-37ca-4a1a-8a37-361d1a82f9ba",
+        "silk_overlap|180883690|49602023|bf996ad0-37ca-4a1a-8a37-361d1a82f9ba|90c3331b-c532-4aa8-863a-37cb7f34c527"
       ],
       "meta": {
         "version": 2
