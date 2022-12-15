@@ -55,7 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|183229779|57594001|f5b0e566-748f-4cc0-bdea-d66f8eb5595c|cde77853-cd6e-4f8b-ba62-49b2656f301f",
+        "courtyards_overlap|183484599|60938001|f5b0e566-748f-4cc0-bdea-d66f8eb5595c|613d858b-4438-4cad-aaff-0a631284c438",
+        "silk_over_copper|147239253|83424938|bb823fe5-43f0-4b7c-9963-d89cc81702eb|626059c2-d4a2-4b7b-9604-700c4d0d79fc",
+        "silk_over_copper|147257065|51767000|70a337c4-4b0f-4262-b21b-f4de014cd24e|078ef709-068a-4ccc-8b08-121f0e27f194",
+        "silk_over_copper|147269982|58421800|70a337c4-4b0f-4262-b21b-f4de014cd24e|52794ba3-9791-484d-bd15-6ebd8352026d",
+        "silk_over_copper|147287166|76770138|bb823fe5-43f0-4b7c-9963-d89cc81702eb|e4d103e6-db20-4002-a319-ca5dc4f808be",
+        "silk_over_copper|169895129|88275136|1dd148b9-bfc2-4503-80d7-03a115925874|cf466389-d844-4d34-b730-6f5bc032e52d",
+        "silk_over_copper|171036705|47570593|7112c178-fa81-408e-8fa5-a3f616113d55|1fcb871d-a701-4630-b3bf-00a9e4727c4c"
+      ],
       "meta": {
         "version": 2
       },
@@ -119,8 +128,7 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0,
-        0.4
+        0.0
       ],
       "via_dimensions": [
         {
@@ -367,6 +375,34 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Thick power",
+        "nets": [
+          "9V",
+          "GND",
+          "Net-(C1-Pad2)",
+          "Net-(C2-Pad1)",
+          "Net-(C2-Pad2)",
+          "Net-(D2-Pad1)",
+          "Net-(Q1-Pad3)",
+          "Output",
+          "Signal"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
         "wire_width": 6.0
       }
     ],
