@@ -810,7 +810,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 102.235 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 84696f8a-20a3-40b7-aedb-09285a52328e)
-    (property "Reference" "J?" (id 0) (at 100.33 92.71 0))
+    (property "Reference" "J6" (id 0) (at 100.33 92.71 0))
     (property "Value" "Conn_01x01_Male" (id 1) (at 104.1399 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -961,7 +961,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 102.235 90.805 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e27eb912-b00a-4827-9110-e3585acda442)
-    (property "Reference" "J?" (id 0) (at 100.33 90.805 0))
+    (property "Reference" "J5" (id 0) (at 100.33 90.805 0))
     (property "Value" "Conn_01x01_Male" (id 1) (at 104.1399 89.535 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -977,7 +977,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 102.235 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ed80c364-dffb-4bce-83fe-922f0e755acb)
-    (property "Reference" "J?" (id 0) (at 100.33 88.9 0))
+    (property "Reference" "J4" (id 0) (at 100.33 88.9 0))
     (property "Value" "Conn_01x01_Male" (id 1) (at 104.1399 87.63 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -1031,14 +1031,14 @@
     (path "/66ae5a12-3060-4606-b2e3-4561aa4cea19"
       (reference "J3") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork")
     )
-    (path "/84696f8a-20a3-40b7-aedb-09285a52328e"
-      (reference "J?") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork")
+    (path "/ed80c364-dffb-4bce-83fe-922f0e755acb"
+      (reference "J4") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork")
     )
     (path "/e27eb912-b00a-4827-9110-e3585acda442"
-      (reference "J?") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork")
+      (reference "J5") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork")
     )
-    (path "/ed80c364-dffb-4bce-83fe-922f0e755acb"
-      (reference "J?") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork")
+    (path "/84696f8a-20a3-40b7-aedb-09285a52328e"
+      (reference "J6") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork")
     )
     (path "/ac98c4da-cede-4def-8a6f-fc1401ef6f5d"
       (reference "Q1") (unit 1) (value "BC549") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
